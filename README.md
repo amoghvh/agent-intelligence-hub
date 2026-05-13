@@ -1,30 +1,39 @@
-Agent Intelligence Hub
+🤖 Agent Intelligence Hub
 
-A centralized platform for managing and deploying intelligent agents, leveraging Groq for high-speed inference and Supabase for robust backend management and data storage.
-🚀 Features
+A high-performance AI orchestration layer for low-latency agentic workflows.
+🎯 The "At-a-Glance" Summary
 
-    Fast AI Inference: Utilizes Groq’s LPU technology for near-instantaneous agent responses.
+This project provides a robust framework for deploying AI agents that require sub-second inference and persistent memory. By offloading heavy compute to Groq's LPU (Language Processing Unit) and state management to Supabase, this hub solves the bottleneck of slow, "forgetful" AI interactions.
+🏗️ How it Works
 
-    Persistent Storage: Integrated with Supabase for user authentication, database management, and real-time updates.
+    Orchestration: The core logic manages agent prompts and task routing.
 
-    Scalable Architecture: Designed to handle multiple agent configurations and complex task workflows.
+    Inference (Groq): Handles high-speed LLM processing to minimize user wait times.
 
-🛠️ Tech Stack
+    Persistence (Supabase): Stores conversation history, user profiles, and vector embeddings for long-term agent memory.
 
-    Language: Python / JavaScript (Adjust based on your primary language)
+    Interface: Provides an API/CLI entry point for triggering agent tasks.
 
-    Database & Auth: Supabase
+📂 Quick Directory Guide
 
-    AI Engine: Groq Cloud
+    /src: Core logic and agent definitions.
 
-    Version Control: Git & GitHub
+    /supabase: Migrations and database schema.
 
-📋 Prerequisites
+    .env.example: Template for required API keys (Groq & Supabase).
 
-Before you begin, ensure you have the following:
+    .gitignore: Configured to protect sensitive keys from being exposed.
 
-    A GitHub account (currently connected as amoghvh).
+🛠️ Core Capabilities
 
-    A Supabase project and your associated API keys.
+    Context Injection: Automatically pulls relevant user data from Supabase to provide "smart" agent responses.
 
-    A Groq API key.
+    Stream Processing: Supports real-time token streaming from Groq for a better UX.
+
+    Security-First: Built-in protection for secret keys and authenticated database access.
+
+👨‍💻 Developed By
+
+Amogh Hosamani
+
+Computer Science & Engineering Student | CHRIST (Deemed to be University)
