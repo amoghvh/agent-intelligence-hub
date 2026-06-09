@@ -6,7 +6,6 @@ import pandas as pd
 from prophet import Prophet
 from dotenv import load_dotenv
 from supabase import create_client
-
 load_dotenv()
 
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
@@ -24,7 +23,6 @@ GROQ_MODELS = [
 ]
 
 
-# ====================== AI PROVIDER CHAIN ======================
 
 def _call_gemini(model: str, system_prompt: str, user_prompt: str, max_tokens=300) -> str:
     url = f"{GEMINI_BASE_URL}/{model}:generateContent"
