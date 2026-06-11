@@ -9,7 +9,6 @@ from supabase import create_client
 load_dotenv()
 
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
-
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 GROQ_API_KEY   = os.getenv("GROQ_API_KEY")   # free at console.groq.com
 
