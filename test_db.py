@@ -10,7 +10,6 @@ key = os.getenv("SUPABASE_KEY")
 # Connect
 supabase = create_client(url, key)
 
-
 def test_connection():
     print("🚀 Attempting to connect to Supabase...")
     data = {
