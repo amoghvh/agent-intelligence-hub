@@ -1,7 +1,7 @@
-🤖 Agent Intelligence Hub
+ Agent Intelligence Hub
 
 A high-performance AI orchestration layer for low-latency agentic workflows.
-🎯 The "At-a-Glance" Summary
+The "At-a-Glance" Summary
 
 This project provides a robust framework for deploying AI agents that require sub-second inference and persistent memory. By offloading heavy compute to Groq's LPU (Language Processing Unit) and state management to Supabase, this hub solves the bottleneck of slow, "forgetful" AI interactions.
 
@@ -16,7 +16,7 @@ How it Works
 
     Interface: Provides an API/CLI entry point for triggering agent tasks.
 
-📂 Quick Directory Guide
+ Quick Directory Guide
 
     /src: Core logic and agent definitions.
 
@@ -26,7 +26,7 @@ How it Works
 
     .gitignore: Configured to protect sensitive keys from being exposed.
 
-🛠️ Core Capabilities
+ Core Capabilities
 
     Context Injection: Automatically pulls relevant user data from Supabase to provide "smart" agent responses.
 
@@ -34,7 +34,7 @@ How it Works
 
     Security-First: Built-in protection for secret keys and authenticated database access.
 
-👨‍💻 Developed By
+ Developed By
 
 Amogh Hosamani
 
