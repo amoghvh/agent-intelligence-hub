@@ -7,7 +7,7 @@ This project provides a robust framework for deploying AI agents that require su
 
 How it Works
 
-    Orchestration: The core logic manages agent prompts and task routing.
+   Orchestration: The core logic manages agent prompts and task routing.
 
 
     Inference (Groq): Handles high-speed LLM processing to minimize user wait times.
