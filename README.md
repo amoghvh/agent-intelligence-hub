@@ -4,7 +4,6 @@ A high-performance AI orchestration layer for low-latency agentic workflows.
 The "At-a-Glance" Summary
 
 This project provides a robust framework for deploying AI agents that require sub-second inference and persistent memory. By offloading heavy compute to Groq's LPU (Language Processing Unit) and state management to Supabase, this hub solves the bottleneck of slow, "forgetful" AI interactions.
-
 How it Works
 
    Orchestration: The core logic manages agent prompts and task routing.
